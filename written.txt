@@ -1,0 +1,143 @@
+Hi, I'm here to wish a very happy birthday to a very special person who is very kind, gentle and has the best smile.
+Keep smiling.
+Smile beai or monkey
+
+Now for carousal
+1.happy birthday rabeel,
+first and foremost I'm grateful to Allah Almighty for this beautiful relation.
+2.this is a very beautiful bond that we share and I am also very thankful to you for everything you have done for me
+3. You are an amazing person who always supports me, appreciate me, care for me.
+4. You are not just a person for me with whom I'll have husband wife relationship only, 
+5. But I have found a whole family in you, a loving partner, caring as mother, supportive as a father, my best friend and a crime partner with whom I can be wild with, my confidant with whom I can share everything, a little kid too (kaka )XD and a teacher who teaches me and definitely my monkooo.
+6. Through you I also found such a lovely family too , a loving father and mother and although mama(rubina mama) is not with us but her upbringing and how you talk about her and her qualities with so much love makes me feel like she is always with us, as we never lose those who live in our heart, and inshaAllah we'll meet her jannah.
+10. InshaAllah you'll be my king and I'll be your queen and we'll make our little empire very beautiful and worth living.
+11. You deserve to be loved , cared, respected, happy, and all the best things in this world and hereafter.
+12. May Allah bless you with a long and healthy life Ameen
+
+13. Allah apko dunia o akhirat ki tumam khushiyan atta kre Ameen
+14. Allah apko apne pasandida naik bandon mein shamil kre Ameen
+15. Allah apko dher sari beshumar kamiyabian atta kre Ameen
+
+16. Allah apko ksi ki bhi mohtaji ya taklif se bachae Ameen
+
+17. Allah apko hamesha dusron k lie asaniyan peda krne wala banae Ameen
+
+18. Allah apko hrr qism ki afat, bimari, taklif aur burai se apni pnah mein rkhe Ameen
+
+19. Allah apko sabar e jameel atta kre Ameen
+
+20. Allah apke aur mere rishte ko mazboot kre aur iss mein barkat dale Ameen
+
+21. Allah apko hamare pyare nabi PBUH ke naqshe qadam aur uswah hasna p chlene ki tofeeq de Ameen
+22. 
+Allah apko mohsinin mein shamil kre Ameen
+23. Allah hamen dusron ki buri nazar aur hasad se apni panah men rkhe aur hamre dilon ko bhi dusron ki nafrat, bughaz, hasab, takabur se paak rkhe Ameen
+24. Allah hmen iss dunia aur jannat mein bi aik dusre ka sath naseeb kre Ameen
+
+
+
+
+   
+ 
+
+
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiple Texts Typing Animation | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="static-txt">I'm a</div>
+    <ul class="dynamic-txts">
+      <li><span>YouTuber</span></li>
+      <li><span>Designer</span></li>
+      <li><span>Developer</span></li>
+      <li><span>Freelancer</span></li>
+    </ul>
+  </div>
+</body>
+</html>
+Second, create a CSS file with the name of style.css and paste the given codes in your CSS file. Remember, you’ve to create a file with .css extension.
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #343F4F;
+}
+.wrapper{
+  display: flex;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #343F4F;
+  border-left: 2px solid #FC6D6D;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+
+
+<img class="img2" src="https://via.placeholder.com/150">
+                <p class="bubble thought">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, nemo, debitis.</p>
+
+ clip-path: polygon(0% 49%, 150% 48%, 150% 100%, 0% 100%);
+<a href="http://127.0.0.1:5502/names.html"></a>
+            <a href="http://127.0.0.1:5502/flipCard.html"></a>
+            <a href="http://127.0.0.1:5502/giftBox.html"></a>
+            <a href="http://127.0.0.1:5502/my-book.html"></a>
+            <a href="http://127.0.0.1:5502/stickyNotes.html"></a>
+            <a href="http://127.0.0.1:5502/carousal.html"></a>

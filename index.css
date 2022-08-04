@@ -1,0 +1,79 @@
+html {
+	min-height: 100%;
+}
+body {
+	background: #f06;
+	background: linear-gradient(45deg, #f06, yellow);
+	padding: 5%;
+}
+.slider {
+	position: relative;
+	text-align: center;
+}
+.slider img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: red;
+	width: 100%;
+	
+	-webkit-transition: all 0s 500000s;
+	-moz-transition: background 0s 500000s;
+	-ms-transition: all 0s 500000s;
+	-o-transition: all 0s 500000s;
+	transition: all 0s 500000s;
+}
+.slider a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	margin-top: 450px;
+	
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+	-webkit-transition: all 0s 500000s;
+	-moz-transition: all 0s 500000s;
+	-ms-transition: all 0s 500000s;
+	-o-transition: all 0s 500000s;
+	transition: all 0s 500000s;
+}
+.slider a:active {
+	background: #000;
+	
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.slider a:active ~ a {
+	background: #fff;
+	border: 2px blue solid;
+	
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.slider a:active img {
+	z-index: 2;
+	
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
+.slider a:active ~ a img {
+	z-index: 1;
+	
+	-webkit-transition: all 0s;
+	-moz-transition: all 0s;
+	-ms-transition: all 0s;
+	-o-transition: all 0s;
+	transition: all 0s;
+}
